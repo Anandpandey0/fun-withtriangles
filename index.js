@@ -18,7 +18,7 @@ function message(){
             };
     }
     else{
-        document.getElementById("output").innerHTML = "Please enter vaid inputs"
+        document.getElementById("output").innerHTML = "Please enter valid inputs"
     }
     
     
