@@ -1,6 +1,6 @@
-var firstSide = document.querySelector("#firstSide");
-var secondSide = document.querySelector("#secondSide");
-var thirdSide = document.querySelector("#thirdSide");
+var heightInput = document.querySelector("#height");
+var baseInput = document.querySelector("#base");
+
 var submit = document.querySelector("#btn");
 submit.addEventListener("click", message);
 
@@ -8,11 +8,11 @@ function message() {
     // console.log(firstSide.value);
     // console.log(secondSide.value);
     // console.log(thirdSide.value);
-    var firstside = Number(firstSide.value);
-    var secondside = Number(secondSide.value);
-    var thirdside = Number(thirdSide.value);
-    var area = firstside * secondside * thirdside;
-    if (firstside > 0 && secondside > 0) {
+    var height = Number(heightInput.value);
+    var base = Number(baseInput.value);
+    var product = height * base;
+    var area = 0.5 * product;
+    if (height > 0 && height > 0) {
         document.getElementById("output").innerHTML = "Area will be " + area;
     }else{
         document.getElementById("output").innerHTML = "Please enter valid inputs";
