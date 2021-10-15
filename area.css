@@ -69,3 +69,7 @@ h1{
     border-radius: 35px;
     ;
  }
+ #output{
+     color: black;
+     border: solid 2px orange;
+ }

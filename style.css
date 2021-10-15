@@ -66,3 +66,7 @@ h1{
     border-radius: 35px;
     ;
  }
+ p{
+     color: black;
+     border: solid 2px orange;
+ }

@@ -9,11 +9,17 @@ function message(){
     var angletwo =  Number(angleTwo.value);
     var anglethree =  Number(angleThree.value);
     var sumangle = Number(angleone + angletwo + anglethree);
-    if(sumangle == 180){
-        document.getElementById("output").innerHTML = "This forms a triangle";
+    if (angleone > 0 && angletwo > 0 && anglethree > 0){
+        if(sumangle == 180){
+            document.getElementById("output").innerHTML = "This forms a triangle";
+        }
+            else{
+                document.getElementById("output").innerHTML = "Sed, No triangle will be formed";
+            };
     }
-        else{
-            document.getElementById("output").innerHTML = "Sed, No triangle will be formed";
-        };
+    else{
+        document.getElementById("output").innerHTML = "Please enter vaid inputs"
+    }
+    
     
 }
