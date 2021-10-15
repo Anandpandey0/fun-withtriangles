@@ -1,0 +1,71 @@
+#navbar{
+    background-color: orange;
+    color: white;
+    border:2px solid orange;
+    position: relative;
+}
+h1{
+    font-size: 2rem;
+}
+.items{
+    display: flex;
+    margin: 0rem 1rem;
+    position: absolute;
+    top: 2rem;
+    right: 0%;
+    
+}
+ .navbar-items{
+    margin: 0rem 1rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+   
+ }
+ .navbar-items a{
+     text-decoration: none;
+     color: white;
+
+ }
+ .navbar-items a:hover{
+     color: black;
+     text-decoration: underline;
+     
+ }
+ .body{
+     text-align: center;
+     align-items: centre;
+     /* height: 50vh; */
+ }
+ h2{
+     font-size: 3rem;
+     font-weight: bolder;
+     text-align: center;
+ }
+ #input{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     border: solid 2px black;
+     align-content: center;
+     text-align: center;
+     font-size: 2rem;
+     color:  orange;;
+     font-weight: bolder;
+
+ }
+ input{
+     height: 5vh;
+     width: 20vw;
+     align-content: center;
+     margin: 2% 40%;
+     border-radius: 35px;
+ }
+ #btn{
+    margin: 2% 45%;
+    width: fit-content;
+    color: white;
+    background-color: orange;
+    font-size: 2rem;
+    border-radius: 35px;
+    ;
+ }
